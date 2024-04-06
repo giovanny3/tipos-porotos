@@ -1,0 +1,68 @@
+body {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: #fbbeff; /* Color fondo gral. */
+  background-position: center; /*Foto centrada*/
+}
+
+header {
+  background-image: url(../Img/fondo.jpg);
+  background-size: cover; /* Img. cubre espacio */
+  display: flex; /* Elementos alineados */
+  justify-content: center; /* Elementos centrados horizontalmente */
+  align-items: center; /* Elementos centrados verticalmente */
+  height: 20rem; /* Altura del contenedor */
+}
+
+.second-background-title {
+  width: 25rem; /* Ancho segundo fondo */
+  height: 10rem; /* Alto segundo fondo */
+  background-color: rgba(255, 204, 255, 0.5); /* Color Transparente */
+  border-radius: 1rem; /* Radio del borde */
+}
+
+.title {
+  font-size: 4rem;
+  margin: 0rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-weight: lighter;
+}
+
+main {
+  margin: 5rem;
+  display: flex;
+  flex-direction: column; /* Elemtos org. en columnas */
+  align-items: center;
+  gap: 5rem; /* Epacio */
+}
+
+.second-container {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.img-porotos {
+  border-radius: 2rem;
+}
+
+.info-container {
+  background-color: greenyellow; 
+  padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+  border-radius: 4rem;
+  box-shadow: 8px 8px 5px -6px rgba(0, 0, 0, 0.75); /* Sombra */
+  -webkit-box-shadow: 8px 8px 5px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 8px 8px 5px -6px rgba(0, 0, 0, 0.75);
+}
+
+footer {
+  background-color: greenyellow;
+  font-size: 1.2rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+}
